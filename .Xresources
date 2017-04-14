@@ -1,0 +1,19 @@
+URxvt.font: -*-clean-*-*-*-*-*-130-*-*-*-*-*-*
+URxvt.scrollBar: false
+URxvt.letterSpace: 0
+URxvt.secondaryScreen: 1
+URxvt.secondaryScroll: 0
+URxvt.background: #ffffff
+URxvt.foreground: #555
+URxvt.transparent: 0
+rofi.color-enabled: true
+rofi.lines: 10
+rofi.padding: 200
+rofi.width: 1368
+rofi.separator-style: none
+rofi.hide-scrollbar: true
+rofi.color-window: #ffffff, argb:9555, #555
+rofi.color-normal: argb:555, #555, argb:0555, #555, #dfdfdf
+rofi.color-active: argb:0555, #555, argb:0555, #555, #ffffff
+rofi.color-urgent: argb:0555, #555, argb:0555, #555, #ffffff
+rofi.font: Cantarell 15
