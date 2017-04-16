@@ -47,13 +47,13 @@ module-margin-right = 2
 
 font-0 = fixed:pixelsize=10;1
 font-1 = FontAwesome:size=10:0
-font-2 = siji:pixelsize=10;1
+font-2 = Cantarell:pixelsize=10;1
 
 modules-left = bspwm
-modules-center =
-modules-right = volume memory cpu date powermenu
+modules-center = music weather
+modules-right = arch volume memory cpu date powermenu
 
-tray-position = center
+;tray-position = center
 tray-padding = 2
 tray-scale = 1
 ;tray-offset-y = 15%
@@ -70,6 +70,30 @@ scroll-down = bspwm-deskprev
 
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
+
+[module/weather]
+type = custom/script
+interval = 10
+format = <label>
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+exec =
+
+
+[module/music]
+type = custom/script
+interval = 2
+label = %output:0:45:...%
+exec = ~/.config/polybar/mpris.sh
+click-left = bspc desktop -f 2
+
+[module/arch]
+type = custom/script
+interval = 1200
+format = <label> Updates
+label = "%output:0:30%"
+exec = "checkupdates+aur | wc -l"
+click-left = urxvt -e "yaourt -Syua"
 
 [module/xwindow]
 type = internal/xwindow
@@ -248,7 +272,7 @@ type = internal/date
 interval = 5
 
 date =
-date-alt = " %Y-%m-%d"
+date-alt = " %b %d, %Y"
 
 time = %H:%M
 time-alt = %H:%M:%S

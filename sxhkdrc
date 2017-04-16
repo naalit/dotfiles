@@ -167,4 +167,4 @@ super + Print
 
 # Lock screen
 super + k
-	lock
+	i3lock-fancy

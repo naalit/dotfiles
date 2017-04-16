@@ -1,5 +1,6 @@
 #! /bin/sh
 
+setxkbmap dvorak
 sxhkd &
 
 bspc monitor -d main music 3 4 5 6 7
@@ -64,4 +65,4 @@ dunst &
 #Load .Xresources
 xrdb -merge .Xresources &
 
-xss-lock -- lock &
+xss-lock -- i3lock-fancy &
