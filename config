@@ -51,7 +51,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = music weather
-modules-right = arch battery volume memory cpu date powermenu
+modules-right = arch volume battery memory cpu date powermenu
 
 ;tray-position = right
 ;tray-padding = 2
