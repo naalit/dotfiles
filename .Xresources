@@ -1,4 +1,3 @@
-URxvt.font: -*-clean-*-*-*-*-*-130-*-*-*-*-*-*
 URxvt.scrollBar: false
 URxvt.letterSpace: 0
 URxvt.secondaryScreen: 1
@@ -6,6 +5,7 @@ URxvt.secondaryScroll: 0
 URxvt.background: #ffffff
 URxvt.foreground: #555
 URxvt.transparent: 0
+URxvt*font: xft:Roboto Mono for Powerline:size=12
 rofi.color-enabled: true
 rofi.lines: 10
 rofi.padding: 200
