@@ -1,22 +1,41 @@
 "*":
   "atom-material-ui":
     colors:
-      abaseColor: "#607d8b"
+      abaseColor: "#00bcd4"
+      accentColor: "#ed1b00"
+      genAccent: true
       paintCursor: true
-      predefinedColor: "Blue Grey"
     tabs: {}
+    treeView: {}
     ui:
       panelShadows: true
   core:
     autoHideMenuBar: true
+    disabledPackages: [
+      "linter-write-good"
+    ]
     telemetryConsent: "limited"
     themes: [
       "atom-material-ui"
       "atom-material-syntax-light"
     ]
   editor:
-    fontSize: 12
+    fontSize: 11
   "exception-reporting":
     userId: "e535dc92-f7b7-4d5f-bdbc-ad9c18c65a09"
+  "linter-proselint": {}
+  "linter-ui-default":
+    showPanel: true
+  "linter-write-good":
+    additionalArgs: "--yes-eprime"
+  "platformio-ide-terminal":
+    core: {}
+    style:
+      theme: "inverse"
+    toggles:
+      autoClose: true
+  sbt:
+    script: "/usr/bin/sbt"
+    showStartupMessage: false
   welcome:
     showOnStartup: false

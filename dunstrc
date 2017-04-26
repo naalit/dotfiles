@@ -243,3 +243,7 @@
 #    urgency = normal
 #
 # vim: ft=cfg
+
+[hangouts]
+  appname = YakYak
+  timeout = 0

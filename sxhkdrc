@@ -168,3 +168,17 @@ super + Print
 # Lock screen
 super + k
 	i3lock-fancy
+
+# Toggle tray
+super + j
+	stalonetray
+super + shift + j
+	pkill stalonetray
+
+#Keyboard layouts
+##super + z
+##	setxkbmap dvorak
+##super + v
+##	setxkbmap us
+##super + w
+##	setxkbmap dvorak-international
