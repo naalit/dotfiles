@@ -1,3 +1,4 @@
+URxvt*font: xft:Roboto Mono for Powerline:size=12
 URxvt.scrollBar: false
 URxvt.letterSpace: 0
 URxvt.secondaryScreen: 1
