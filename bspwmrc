@@ -55,8 +55,7 @@ redshift &
 #panel &
 polybar top &
 
-#Mail and IM clients
-yakyak &
+#IM client
 wmail &
 
 #Notification server
