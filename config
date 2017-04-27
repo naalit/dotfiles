@@ -51,7 +51,7 @@ font-2 = siji:pixelsize=10;1
 
 modules-left = bspwm
 modules-center = music weather
-modules-right = arch volume memory cpu date powermenu
+modules-right = arch volume battery memory cpu date powermenu
 
 ;tray-position = right
 ;tray-padding = 2
@@ -317,12 +317,12 @@ bar-volume-empty-foreground = ${colors.foreground-alt}
 
 [module/battery]
 type = internal/battery
-battery = BAT0
+battery = BAT1
 adapter = ADP1
 full-at = 98
 
 format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
+format-charging-underline = #00bcd4
 
 format-discharging = <ramp-capacity> <label-discharging>
 format-discharging-underline = ${self.format-charging-underline}
