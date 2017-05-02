@@ -20,7 +20,7 @@
       "atom-material-syntax-light"
     ]
   editor:
-    fontSize: 11
+    fontSize: 10
   "exception-reporting":
     userId: "e535dc92-f7b7-4d5f-bdbc-ad9c18c65a09"
   "linter-proselint": {}

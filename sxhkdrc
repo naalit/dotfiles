@@ -30,7 +30,7 @@ super + shift + space
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd; \
-	notify-send "sxhkd config reloaded"
+	notify-send -a "sxhkd" "sxhkd config reloaded"
 
 #
 # bspwm hotkeys
@@ -151,19 +151,19 @@ super + ctrl + {Left,Right,Up,Down}
 # Screenshots
 Print
   scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'; \
-	notify-send "Screenshot saved"
+	notify-send -a "sxhkd" "Screenshot saved"
 
 ctrl + Print
 	scrot -s '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/'; \
-	notify-send "Screenshot saved"
+	notify-send -a "sxhkd" "Screenshot saved"
 
 shift + Print
   scrot '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/Pictures/screenshots/' -d 5 -c; \
-	notify-send "Screenshot saved"
+	notify-send -a "sxhkd" "Screenshot saved"
 
 super + Print
 	gtk-recordMyDesktop;
-#	notify-send "Screencast saved"
+#	notify-send -a "sxhkd" "Screencast saved"
 
 # Lock screen
 super + k
