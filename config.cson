@@ -1,4 +1,5 @@
 "*":
+  "atom-code-music": {}
   "atom-material-ui":
     colors:
       abaseColor: "#00bcd4"
@@ -24,13 +25,16 @@
   "exception-reporting":
     userId: "e535dc92-f7b7-4d5f-bdbc-ad9c18c65a09"
   "linter-proselint": {}
-  "linter-ui-default":
-    showPanel: true
+  "linter-python":
+    executablePath: "/usr/bin/pylama"
+    withPylint: true
+  "linter-ui-default": {}
   "linter-write-good":
     additionalArgs: "--yes-eprime"
   "platformio-ide-terminal":
     core: {}
     style:
+      fontFamily: "Roboto Mono for Powerline"
       theme: "inverse"
     toggles:
       autoClose: true

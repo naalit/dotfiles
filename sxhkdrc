@@ -27,6 +27,10 @@ super + space
 super + shift + space
 	rofi -show drun
 
+# rofi-pass
+super + e
+	rofi-pass
+
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd; \
